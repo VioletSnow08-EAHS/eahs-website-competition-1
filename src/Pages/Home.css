@@ -1,0 +1,81 @@
+.background {
+    width: 100px;
+}
+
+
+.logo {
+    height: 100px;
+    float: left;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+
+}
+.nav-btn {
+    padding: 44px 45px;
+    float: left;
+    color: white;
+    font-size: 40px;
+    border-bottom-color: purple;
+    border-bottom-style: ridge;
+}
+.nav-btn:hover {
+    border-bottom-color: mediumspringgreen;
+    border-bottom-style: dashed;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
+.ss-picture {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.slideshow {
+    position: relative;
+    text-align: center;
+}
+.ss-text {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    padding: 15px;
+
+}
+
+.footer {
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+}
+.ss-span {
+    text-shadow: 4px 4px 4px dodgerblue;
+}
+
+.ss-logo {
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

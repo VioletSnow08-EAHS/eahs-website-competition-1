@@ -1,0 +1,25 @@
+@font-face {
+    font-family: ss-new;
+    src: url(Emma-new.woff);
+}
+
+@font-face {
+    font-family: ss-old;
+    src: url(Emma.woff);
+}
+
+body {
+    font-family: ss-new, serif;
+}
+
+* {
+    text-decoration: none;
+}
+
+.title {
+    font-size: 75px;
+    float: left;
+    margin-top: 20px;
+    color: white;
+}
+
