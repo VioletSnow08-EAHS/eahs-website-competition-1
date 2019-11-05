@@ -1,7 +1,9 @@
 .background {
     width: 100px;
 }
-
+* {
+    color: white;
+}
 
 .logo {
     height: 100px;
@@ -20,9 +22,10 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
 
-
-
+.aboutH1 {
+    text-align: center;
 }
 .nav-btn {
     padding: 44px 45px;
@@ -73,8 +76,8 @@
 }
 
 .ss-logo {
-    width: 40%;
-    height: 60%;
+    width: 500px;
+    height: 450px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);

@@ -37,28 +37,11 @@ class App extends React.Component {
                 </div>
 				<Navbar/>
 				<div className="content">
-					<img className="background" src={bground}/>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1><h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1><h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1><h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
-					<h1>meme</h1>
+					<h1 className="aboutH1">Specialized bots for discord servers</h1>
+					<div className="aboutShort">
+						<h1 className="aboutH1">We make fully personalized Discord bots!</h1>
+					</div>
+
 				</div>
 				<Footer />
 			</div>
