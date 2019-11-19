@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <div id="header">
         <img className="logo" src={logo} alt="logo" />
-        <h1 className="title">SetBot</h1>
+        <h1 className="title">SocialBot</h1>
       </div>
     );
   }

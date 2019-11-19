@@ -67,7 +67,7 @@
 }
 
 .footer {
-    color: orange;
+    color: gray;
     font-size: 30px;
     text-align: center;
 }
@@ -81,4 +81,41 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.homeParagraph1 {
+
+
+    float: left;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.homeParagraph2 {
+
+ 
+    float: right;
+    letter-spacing: 2px;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.homeInfoDiv {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.customerName {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.customerSaying {
+
 }

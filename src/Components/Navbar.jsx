@@ -10,11 +10,11 @@ class App extends React.Component {
 		return (
 			<div id="navbar">
 
-				<Link to="/services" className="nav-btn">Services</Link>
-				<Link to="/schedule" className="nav-btn">Schedule</Link>
+				<Link to="/" className="nav-btn">Services</Link>
+				<Link to="/" className="nav-btn">Schedule</Link>
 				<img className="logo" src={logo} alt="logo"/>
-				<Link to="/faq" className="nav-btn">FAQ</Link>
-				<Link to="/about" className="nav-btn">About Us</Link>
+				<Link to="/" className="nav-btn">FAQ</Link>
+				<Link to="/" className="nav-btn">About Us</Link>
 
 
 			</div>
