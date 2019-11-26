@@ -1,8 +1,5 @@
 import React from 'react';
 import Home from "./Pages/Home.jsx";
-import About from "./Pages/About.jsx";
-import Services from "./Pages/Services.jsx";
-import Navbar from "./Components/Navbar.jsx";
 import {BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
 
 function App() {

@@ -7,7 +7,7 @@ import Header from "../Components/Header.jsx";
 import Navbar from "../Components/Navbar.jsx";
 import "./Home.css";
 import Footer from "../Components/Footer.jsx";
-import fiveStar from "../5star.png"
+import ourTeam from "./ourteam.JPG"
 
 class App extends React.Component {
 
@@ -33,7 +33,7 @@ class App extends React.Component {
 				<Header/>
                 <div className="slideshow">
                     <img className="ss-picture" src={bground}/>
-	                <h2 className="ss-text">Creating Discord Bots for your <span className="ss-span">every</span> need</h2>
+	                <h2 className="ss-text">Creating Chat Bots for your <span className="ss-span">every</span> need</h2>
 	                <img className="ss-logo" src={Logo} />
                 </div>
 				<Navbar/>
@@ -47,13 +47,15 @@ class App extends React.Component {
 						<p>
 						We are SocialBot. SocialBot is a company designed for your personal needs. We create ChatBots for many sites such as Discord, Facebook, Twitter, and also feature Social Media Dashboards!! Customers absolutely love SocialBot and come back for their next need. Here is what some of them got to say.
 						</p>
+						<h1>Our Team</h1>
+						<img src={ourTeam} />
 
 					</div>
 					
 					<div className="homeParagraph2">
 						<p><span className="customerName">Mr. Tanczos</span><span className="customerSaying"> - "SocialBot is an amazing company. They designed my chatbot for my business and customers are loving it!"</span></p>
-						<p><span className="customerName">Mr. Geiger</span><span className="customerSaying"> - "My business was struggling recently, until I found SocialBot. They helped me interact with customers easily, and my business grew from it! Thanks SocialBot!</span></p>
-						<p><span className="customerName">Abraham Lincoln</span><span className="customerSaying"> - "I needed a way to talk to my clients and customers, but I just didn't have the time. We got so big so quickly and I can't afford to hire agents. SocialBot helped me though. They gave me an online bot that responds to any message and will send an immediate alert to us during business hours. Since then, I have gone from three stars to four and a half stars because of that.</span></p>
+						<p><span className="customerName">Mr. Geiger</span><span className="customerSaying"> - "My business was struggling recently, until I found SocialBot. They helped me interact with customers easily, and my business grew from it! Thanks SocialBot!"</span></p>
+						<p><span className="customerName">Abraham Lincoln</span><span className="customerSaying"> - "I needed a way to talk during the Civil War. No one uses the Telegraph and the Pony Express was too slow. Then I found SocialBot. They developed a bot that let me interact with my followers and update them on everything I can! SocialBot is my first choice."</span></p>
 					</div>
 	
 					</div>
