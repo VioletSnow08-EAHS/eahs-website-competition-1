@@ -48,7 +48,7 @@ class App extends React.Component {
 						We are SocialBot. SocialBot is a company designed for your personal needs. We create ChatBots for many sites such as Discord, Facebook, Twitter, and also feature Social Media Dashboards!! Customers absolutely love SocialBot and come back for their next need. Here is what some of them got to say.
 						</p>
 						<h1>Our Team</h1>
-						<img src={ourTeam} />
+						<img id="ourTeam" src={ourTeam} />
 
 					</div>
 					
